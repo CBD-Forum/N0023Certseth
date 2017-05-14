@@ -1,0 +1,54 @@
+<template name="certmany">
+<body>
+<div class="index-top">
+  <div class="logo"> <a href="/"> <img style="margin-left:40px" src="image/logo.png"></a></div>
+  <div id="menul">
+    <ul>
+      <li><a href="/edu">返回</a>
+       
+      </li>
+    </ul>
+  </div>
+  <div id="menur">
+    <ul>
+     
+      <li><a href="#">费用中心</a>
+      <div class="down_nav"><span><a href='edubuy'>购买</a></span><span><a href='/charge'>充值</a></span><span><a href='edurest'>余额</a></span></div>
+      </li>
+      <li><a href="#">支持</a>
+        <div class="down_nav"><span><a href='/build1'>帮助文档</a></span><span><a href='/build1'>客户端下载</a></span><span><a href='/build1'>联系客服</a></span><span><a href='/build1'>帮助与意见</a></span></div>
+      </li>
+      <li><a href="#">欢迎您！{{user.username}}</a>
+        <div class="down_nav"><span><a href='/eduperson'>用户中心</a></span><span><a class="logout">退出</a></span></div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="lnav">
+<em>证书签发</em>
+<ul>
+
+<li><a href="/certmany" class="lion">批量签发</a></li>
+</ul>
+</div>
+<div class="info">
+<div class="topPanels"><p>批量签发（<span>付费</span>）</p></div>
+<div class="info-xx">
+  <form action="" method="post" enctype="multipart/form-data" name="form1">
+    <p>
+      
+       <input type="file" name="fileField" class="addpic" id="fileId"  />
+       <br>
+       <br>
+       <br>
+       <input name="mima" type="password" id="mima" class="addpic1" placeholder="密码"><br><span id="s8"></span>
+    </p>
+    <p>
+      <button  class="quedg" >写 入</button>
+      <input type="reset" name="button2" id="button2" value="重置" class="quxo">
+    </p>
+  </form>
+</div>
+</div>
+</body>
+</template>

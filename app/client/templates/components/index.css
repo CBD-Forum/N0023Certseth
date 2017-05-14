@@ -1,0 +1,197 @@
+.main-item {
+	overflow: hidden;
+	position: relative
+}
+.title{ width:100%; height:auto; text-align:center; padding:40px 0;}
+.title span{ border-bottom:1px #000 solid; border-top:1px #000 solid; font-size:25px; color:#222;}
+@media screen and (max-width:1100px){
+.index-banner {
+	width: 100%;
+	height:240px;
+	background:url(image/index.jpg) center no-repeat;
+	background-size:100%;
+	color:#fff;
+	text-align:center;
+	position:relative;
+}
+.index-banner-con{ width:300px; height:100px; position:absolute; left:50%; top:50%; margin-left:-150px; margin-top:-50px;}
+.index-banner-con em{ font-size:20px; line-height:30px; letter-spacing:3px;}
+.index-banner-con p{ width:50px; height:50px; margin:7px auto; background:url(image/1.png) no-repeat; background-size:100%;}
+.index-banner-con p a{ display:block; width:50px; height:50px;}
+.index-banner-con p a:hover{ background:url(image/2.png) no-repeat; background-size:100%;}
+.index-banner-con span{ line-height:20px; font-size:12px;}
+.index-jieshao .item.l{ display:none;}
+.index-jieshao .item.r{ width:94%; margin:0 auto;}
+}
+@media screen and (min-width:1101px) and (max-width:1440px){
+	.index-banner {
+	width: 100%;
+	height:751px;
+	color:#fff;
+	text-align:center;
+	position:relative;
+	background:url(image/index.jpg) center no-repeat;
+}
+}
+@media screen and (min-width:1441px) and (max-width:1600px){
+	.index-banner {
+	width: 100%;
+	height:834px;
+	color:#fff;
+	text-align:center;
+	position:relative;
+	background:url(image/index.jpg) center no-repeat;
+}
+}
+@media screen and (min-width:1601px){
+	.index-banner {
+	width: 100%;
+	height:1023px;
+	color:#fff;
+	text-align:center;
+	position:relative;
+	background:url(image/index.jpg) center no-repeat;
+}
+
+}
+@media screen and (min-width:1101px){
+.index-banner-con{ width:640px; height:400px; position:absolute; left:50%; top:50%; margin-left:-320px; margin-top:-200px;}
+.index-banner-con em{ font-size:65px; line-height:60px; letter-spacing:3px;}
+.index-banner-con p{ width:160px; height:160px; margin:20px auto; background:url(image/1.png) no-repeat;}
+.index-banner-con p a{ display:block; width:160px; height:160px;}
+.index-banner-con p a:hover{ background:url(image/2.png) no-repeat;}
+.index-banner-con span{ line-height:40px; font-size:15px;}
+.index-jieshao{ background:#f5f5f5; width:100%;}
+.index-jieshao .item {
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	float: left;
+	width: 45%;
+	overflow: hidden
+}
+.index-jieshao .item.l {
+	background:url(image/ind1.jpg) right no-repeat;
+	height:350px;
+	float:left;
+}
+.index-jieshao .item.r {
+	float: left;
+}
+.index-jieshao .item.r p{ display:block; width:550px; padding-left:80px; float:left;}
+.index-jieshao.current .item.l {
+	margin-left: 0;
+	opacity: 1
+}
+.index-jieshao.current .item.r {
+	margin-right: 0;
+	opacity: 1
+}
+}
+.index-fuwu{ background:#fff; width:100%;}
+.index-zhshu{ background:#fff; width:100%;}
+@media screen and (max-width:1100px){
+.index-fuwu .item.l{ display:none;}
+.index-fuwu .item.r{ width:94%; margin:0 auto;}
+.index-zhshu .item.l{ width:94%; margin:0 auto;}
+.index-zhshu .item.r{ display:none;}
+}
+@media screen and (min-width:1101px){
+.index-fuwu .item {
+	float: left;
+	width: 50%;
+}
+.index-fuwu .item.l {
+	background:url(image/ind2.jpg) right no-repeat;
+	height:373px;
+}
+.index-fuwu .item.b {
+	background:url(image/ind42.jpg) right no-repeat;
+	height:373px;
+}
+.index-fuwu .item.r {
+	float: right;
+	height:373px;
+}
+.index-fuwu .item.r p{ display:block; width:550px; padding-left:50px; color:#00a0fe; font-size:36px;}
+.index-fuwu .item.r span{ display:block; width:550px; padding-left:50px; color: #000; font-size:18px;}
+.index-fuwu.current .item.l {
+	margin-left: 0;
+	opacity: 1
+}
+.index-fuwu.current .item.r {
+	margin-right: 0;
+	opacity: 1
+}
+.index-zhshu .item {
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	float: left;
+	width: 50%;
+	overflow: hidden
+}
+.index-zhshu .item.l {
+	height:367px;
+}
+.index-zhshu .item.l p{ display:block; width:600px; float:right; color:#00a0fe; font-size:36px;}
+.index-zhshu .item.l span{ display:block; width:600px; float:right; color: #000; font-size:18px;}
+.index-zhshu .item.r {
+	float: right;
+	height:367px;
+	background:url(image/ind3.jpg) left no-repeat;
+}
+
+.index-zhshu.current .item.l {
+	margin-left: 0;
+	opacity: 1
+}
+.index-zhshu.current .item.r {
+	margin-right: 0;
+	opacity: 1
+}
+}
+
+
+
+
+
+@media screen and (max-width:1100px){
+	.yghu-con{ width:100%;}
+	.yghu-con li{ width:33%; float:left; height:130px; text-align:center;}
+	.yghu-con li img{ width:97%;}
+}
+@media screen and (min-width:1101px){
+.index-yghu {
+	text-align: center;
+	height:650px;
+}
+.index-yghu .yghu-c {
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	display: block;
+}
+.index-yghu.current .yghu-c {
+	margin-top:0;
+}
+.yghu-con{ width:1041px; margin:0 auto;}
+.yghu-con li{ width:287px; height:445px; background:#f5f2f2; float:left; margin:0 30px; position:relative;}
+.li-on{ width:170px; height:210px; background:#fff; padding:20px; position:absolute; left:50%; margin-left:-105px; top:140px;}
+}
+
+@media screen and (max-width:1100px){
+.index-guihu{ width:100%; margin:0 auto; text-align:center;}
+.guihu-con{ width:100%; background:url(image/xians.png) 40% top repeat-y; font-size:18px; padding-bottom:0px;}
+.guihu-con .l{ float:left; width:30%; text-align:right;}
+.guihu-con .l span{ float:right; line-height:40px; padding-top:42px; display:block; width:100%; color:#00a0fe; font-size:14px;}
+.guihu-con .r{ float:right; width:50%;}
+.guihu-con .r span{ float:right; line-height:40px; padding-top:42px; display:block; width:100%; text-align:left; font-size:13px;}
+.index-guihu img{ padding:10px 0; margin-top:10px;}
+}
+@media screen and (min-width:1101px){
+.index-guihu{ width:600px; margin:0 auto; text-align:center;}
+.guihu-con{ width:600px; background:url(image/xian.png) top repeat-y; font-size:18px; padding-bottom:22px;}
+.guihu-con .l{ float:left; width:40%; text-align:right;}
+.guihu-con .l span{ float:right; line-height:40px; padding-top:140px; display:block; width:100%; color:#00a0fe;}
+.guihu-con .r{ float:right; width:40%;}
+.guihu-con .r span{ float:right; line-height:40px; padding-top:140px; display:block; width:100%; text-align:left;}
+.index-guihu img{ padding:10px 0; margin-top:10px;}
+}

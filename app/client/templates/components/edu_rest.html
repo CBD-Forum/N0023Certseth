@@ -1,0 +1,51 @@
+<template name="edurest">
+<body>
+<div class="index-top">
+  <div class="logo"><a href="/"> <img style="margin-left:40px" src="image/logo.png"></a></div>
+   <div id="menul">
+    
+    <ul>
+      <li><a href="/edu">返回</a>
+        
+      </li>
+    </ul>
+ 
+  </div>
+  <div id="menur">
+    <ul>
+     
+      <li><a href="#">费用中心</a>
+      <div class="down_nav"><span><a href='/edubuy'>购买</a></span><span><a href='/charge'>充值</a></span><span><a href='/edurest'>余额</a></span></div>
+      </li>
+      <li><a href="#">支持</a>
+        <div class="down_nav"><span><a href='/build1'>帮助文档</a></span><span><a href='/build1'>客户端下载</a></span><span><a href='/build1'>联系客服</a></span><span><a href='/build1'>帮助与意见</a></span></div>
+      </li>
+      <li><a href="#">欢迎您！{{user.username}}</a>
+        <div class="down_nav"><span><a href='/eduperson'>用户中心</a></span><span><a class="logout">退出</a></span></div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="lnav">
+
+
+<div id="menum">
+    <ul>
+      <li><a href="#">费用中心</a>
+        <div class="down_navm"><span><a href='/edubuy'><i></i>购买</a></span><span><a href="/charge"><i></i>充值</a></span><span><a href="/edurest"><i></i>余额</a></span></div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="info">
+<div class="topPanels"><p>余额</p></div>
+<div class="xs_tit"><span>可用余额</span></div>
+<div class="height40"></div>
+<div class="yues">
+<span>1500</span><em>.00</em>
+<div class="height40"></div>
+<input type="submit" name="button" id="button" value="充值" class="quedgm">
+</div>
+</div>
+</body>
+</template>

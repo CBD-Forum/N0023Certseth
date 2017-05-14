@@ -1,0 +1,57 @@
+<template name="charge">
+<body>
+<div class="index-top">
+  <div class="logo"><a href="/"> <img style="margin-left:40px" src="image/logo.png"></a></div>
+  <div id="menul">
+    <ul>
+      <li><a href="/edu">返回</a>
+      
+      </li>
+    </ul>
+  </div>
+  <div id="menur">
+    <ul>
+     
+      <li><a href="#">费用中心</a>
+      <div class="down_nav"><span><a href='/edubuy'>购买</a></span><span><a href='/charge'>充值</a></span><span><a href='/edurest'>余额</a></span></div>
+      </li>
+      <li><a href="#">支持</a>
+        <div class="down_nav"><span><a href='/build1'>帮助文档</a></span><span><a href='/build1'>客户端下载</a></span><span><a href='/build1'>联系客服</a></span><span><a href='/build1'>帮助与意见</a></span></div>
+      </li>
+      <li><a href="#">欢迎您！{{user.username}}</a>
+        <div class="down_nav"><span><a href='/eduperson'>用户信息</a></span><span><a class="logout">退出</a></span></div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="lnav">
+
+
+<div id="menum">
+    <ul>
+      <li><a href="#">费用中心</a>
+        <div class="down_navm"><span><a href='/edubuy'><i></i>购买</a></span><span><a href="/charge"><i></i>充值</a></span><span><a href="/edurest"><i></i>余额</a></span></div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="info">
+<div class="topPanels"><p>充值</p></div>
+<div class="cz_tit"><span>快捷支付</span></div>
+<div class="height40"></div>
+<form name="form1" method="post" action="">
+<ul class="cz_con">
+<li><span>充值金额</span>
+  <input type="text" name="textfield" id="textfield" class="cz_txt">
+</li>
+<li>支付方式</li>
+<li>
+ 
+  <button class="quedgm">立即支付</button>
+</li>
+<div class="clear"></div>
+</ul>
+</form>
+</div>
+</body>
+</template>

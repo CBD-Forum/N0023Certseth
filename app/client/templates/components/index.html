@@ -1,0 +1,141 @@
+
+
+<head><title>链动证书</title><link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" /></head><template name="zhuye">
+  
+
+<script type="text/javascript">
+$(function() {
+    $("#toggle").click(function() {
+        $("#menu").slideToggle();
+    });
+});
+</script>
+
+
+<body>
+<div class="index-top">
+  <div class="logo"><a href="/"> <img src="image/logo.png"></a></div>
+  <div  id="menu">
+    <ul>
+      <li class="aaa"><a href="#head">首页</a></li>
+      <li class="aaa"><a href="http://certseth.com">项目介绍</a></li>
+      <li class="aaa"><a href="/searchmany">证书查询</a></li>
+      <li class="aaa"> <a href="/download">支持与下载</a>
+        <div class="down_nav"><span class="bbb"><a href='/download'>项目白皮书</a></span><span><a href='/download'>客户端下载</a></span></div>
+      </li>
+      <li ><a >帮助中心</a>
+        <div class="down_nav"><span><a href='/build'>帮助与支持</a></span><span><a href='/build'>联系客服</a></span></div>
+      </li>
+    </ul>
+  </div>
+  <div class="wap_nav" id="toggle"><img src="image/menu.png"></div>
+{{#if currentUser}}<div   style="margin-left:500px" id="menu">
+<ul>
+ <li class="aaa"> <a >欢迎您！{{user.username}}</a>
+        <div class="down_nav"><span class="bbb"><a href='/edu'>用户页面</a></span><span><a class="logout">退出</a></span></div>
+      </li></ul></div>
+{{else}}
+  <div class="lo_gin"><a href="/loginmail">登录</a>/<a href="/regmail">注册</a></div>
+  {{/if}}
+<!-- <div class="login1"><a style="margin-top:-280px;" href="登录.html">登录</a>/<a href="注册.html">注册</a><video width="800" height="600" controls>
+  <source src="http://ommstorpu.bkt.clouddn.com/MG%E9%93%BE%E5%8A%A8%E8%AF%81%E4%B9%A6.mp4" type="video/mp4">
+  
+</video></div>-->
+</div>
+
+<div class="index-banner">
+<div class="index-banner-con">
+<em id="head" style="margin-top:-200px;padding-top:200px">链 动 证 书</em>
+<p><a id="play-video" href="/zhuye1"></a></p>
+<span>基于区块链的一套完整的面向教育行业的证书签发及查验系统</span>
+</div>
+</div>
+
+
+<div class="main-item index-jieshao">
+  <div class="title"><span>项目介绍</span></div>
+  
+  <div class="item l"></div>
+ &nbsp;  &nbsp;  &nbsp; <div class="item r">
+
+
+   &nbsp;  &nbsp;  &nbsp; <p>
+<strong> Certseth</strong>：基于区块链的一套完整的面相教育行业的证书签发及查验系统。<br>
+<br>
+每个教育单位所下发的证书的真实性往往在确认上存在很大难度，Certseth基于区块链数据的不可更改性，开发出一款用于证书的真实性验证系统，后期可以进行功能扩展。</p>
+  </div>
+</div>
+
+
+<div class="main-item index-fuwu">
+  <div class="title"><span>服务</span></div>
+  <div class="item l"></div>
+  <div class="item r"><p>教育证书发布</p><br><span>1.	向证书签发机构提供证书签发服务，并生成专有的数字证书。
+</span></div>
+  
+</div>
+<div class="height80"></div>
+<div class="main-item index-zhshu">
+  <div class="item l"><p>证书真伪查询</p><br><span>2.	向企业和个人提供证书真伪性在线查询服务。
+
+</span></div>
+  <div class='item r'></div>
+</div>
+<div class="height80"></div>
+<div class="main-item index-fuwu">
+ 
+  <div class="item b"></div>
+  <div class="item r"><p>其他服务</p><br><span>1.	利用智能合约，实现证书签发权限的转让，和证书签发过程的透明化实现。<br>
+2.	大数据分析实现跨机构的证书查询和追溯，建立完善的人力资源库，并制定个性化的求职方案与人才录用方案。<br>
+	
+3.以证书签发单位为节点搭建完备的专有功能化的联盟链，建立轻节点客户端，建立快速有效的证书查验终端节点。
+</span></div>
+  <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=#987cb9 SIZE=3>
+</div>
+<div class="height80"></div>
+<div class="index-yghu">
+  <div class="yghu-c">
+  <div class="title"><span>用户群体</span></div>
+  <ul class="yghu-con">
+  <li><img src="image/ind4.jpg"><div class="li-on">教育机构<br><br>当学生在教育机构后的相应技术并取得认证后教育机构向学生发布非传统方式的纸质证书，而是可查证真伪的数字化证书。<br><br></div></li>
+  <li><img src="image/ind5.jpg"><div class="li-on">学生<br><br>在该教育机构求学，得到专业的评定并获得一定技能后教育机构为该学生发布专业性认可的有效凭证，学生在应聘或求学时需要向应聘或求学单位展示证书的真实有效性。</div></li>
+  <li><img src="image/ind6.jpg"><div class="li-on">求证方<br><br>在应聘者或求学者的数字证书后，想验证证书真实性，并将证书结果纳入考核范围。</div></li>
+  </ul>
+  <div class="clear"></div>
+  </div>
+</div>
+
+<div class="index-guihu">
+<div class="title"><span>项目规划</span></div>
+<div class="guihu-con">
+<div class="l">
+<span>2017.04.08</span>
+<span>2017.05.30</span>
+<span>2017.08.30</span>
+<span>2018.02.30</span>
+<span>2018.12.30</span>
+<span></span>
+</div>
+<div class="r">
+<span>内测版0.0.1</span>
+<span>内测版完成与部署</span>
+<span>公测版</span>
+<span>轻节点客户端手机查询客户端</span>
+<span>实物真伪验证</span>
+<span></span>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+
+<div id="fnav">
+<div class="fnav"><span><a href='/contact'>服务条款</a></span><span><a href='/contact1'>关于我们</a></span><span><a href='/contact2'>加入我们</a></span><span><a href='/contact3'>联系我们</a></span><div class="clear"></div></div>
+</div>
+<div id="foot">
+
+<div class="banquan">copyright © 2017 链动科技 陕ICP备16014522号-2</div>
+</div>
+</body>
+
+</template>

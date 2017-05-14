@@ -1,0 +1,111 @@
+html,body,form,dl,dd,dt,ol,ul,li,h1,h2,h3,h4,h5,h6,h7 {margin:0;padding:0; font-family:微软雅黑;}
+a:link,a:visited {COLOR:#333;text-decoration:none}
+a:hover {COLOR:#333;text-decoration:none;}
+a:active {COLOR:#ff0000;text-decoration:none;}
+ol,ul,li,i,em {list-style:none outside none; font-style:normal;}
+img {border:0;}
+em,cite {font-style:normal;}
+.styer { float:left;}
+.clear { clear:both; margin:0px; top:0px} 
+.fl{ float:left;}
+.fr{ float:right;}
+.quedg{ width:195px; height:50px; background:#46bbfc;border-radius:5px; border:0; color:#fff; font-size:18px; font-family:微软雅黑;}
+.quxo{ width:100px; height:50px; background:#a2deff;border-radius:5px; border:0;}
+.index-top{
+	z-index:9999;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	position:fixed;
+	color:#fff;
+	background:url(image/tbg.png);
+}
+.logo{ float:left; position:absolute;}
+.lo_gin{ float:right; font-size:16px; position:absolute;}
+.lo_gin1{ float:right; font-size:16px; position:absolute;}
+.lo_gin1{top:0; right:10px; line-height:50px; font-size:14px;}
+.lo_gin1 a{ color:#fff;}
+.lo_gin1 li .down_nav span a{color:#fff;}
+.down_nav span{ width:100%; line-height:40px; font-size:15px; text-align:center; display:block; background:#434343;}
+.lo_gin1 li .down_nav span:hover{ background:#303030}
+.lo_gin1 li:hover .down_nav{left:110px;top:0px;}
+@media screen and (max-width:1100px){
+.index-top{
+	height:50px;
+}
+.logo{left:10px; top:0px;}
+.logo img{ height:50px;}
+.lo_gin{top:0; right:10px; line-height:50px; font-size:14px;}
+.lo_gin a{ color:#fff;}
+.lo_gin a:hover{ text-decoration:underline;}
+.wap_nav{position:absolute; right:90px; top:13px;}
+
+
+#menu {height:auto; width:110px; display:none; position:absolute; top:50px; left:0; background:#333;}
+#menu li {float:left;display:block;text-align:center;position:relative;height:40px;line-height:40px;width:110px;border:none;font-size:14px;margin:8px 0;}
+#menu li:hover {height:40px;line-height:40px;background:url(image/navbg.jpg) no-repeat;}
+#menu li a {color: #fff;display:block;outline:0;text-decoration:none;}
+#menu li:hover a{color:#fff;}
+.down_nav{line-height:26px;float:left;position:absolute;left:-999em; text-align:left;border-top:none;z-index:9999;width:110px; height:auto;}
+#menu li .down_nav span a{color:#fff;}
+.down_nav span{ width:100%; line-height:40px; font-size:15px; text-align:center; display:block; background:#434343;}
+#menu li .down_nav span:hover{ background:#303030}
+#menu li:hover .down_nav{left:110px;top:0px;}
+
+
+
+.height40{height:10px;overflow: hidden;clear: both}
+.height80{height:20px;overflow: hidden;clear: both;}
+}
+@media screen and (min-width:1101px){
+.height40{height:40px;overflow: hidden;clear: both}
+.height80{height:80px;overflow: hidden;clear: both;}
+.index-top{
+	height:80px;
+}
+.logo{left:50px; top:10px;}
+.lo_gin{ top:0; right:50px; line-height:80px; color:#fff;}
+.lo_gin a{ color:#fff;}
+.lo_gin a:hover{ text-decoration:underline; padding:0 5px;}
+.wap_nav{ display:none;}
+#menu {height:80px; width:850px; position:absolute; left:50%; margin-left:-425px;}
+#menu li {float:left;display:block;text-align:center;position:relative;height:80px;line-height:80px;width:150px;border:none;font-size:18px;margin:0 10px;}
+#menu li:hover {height:80px;line-height:80px;background:url(image/navbg.jpg) no-repeat;}
+#menu li a {color: #fff;display:block;outline:0;text-decoration:none;}
+#menu li:hover  a{background:#434343;color:#fff;}
+
+.down_nav{line-height:26px;float:left;position:absolute;left:-999em; text-align:left;border-top:none;z-index:9999;width:150px; height:auto;}
+#menu li .down_nav span a{color:#fff;}
+.down_nav span{ width:100%; line-height:40px; font-size:15px; text-align:center; display:block; background:#434343;}
+#menu li .down_nav a:hover{ background:#303030}
+#menu li:hover .down_nav{left:-2px;top:80px;}
+}
+
+#fnav{ width:100%; background:#313131;}
+.banquan{ text-align:center; color:#999; margin:0 auto;}
+#foot{ width:100%; background:#262a34;}
+@media screen and (max-width:1100px){
+#fnav{padding:10px 0;}
+.fnav{ width:100%;}
+.fnav span{ color:#fff; float:left; width:25%; text-align:center;}
+.fnav span a{ color:#fff; font-size:13px;}
+.banquan{ width:100%; padding:7px 0; font-size:13px;}
+#foot{padding:10px 0;}
+.foot{ width:100%; margin:0 auto;}
+.foot span{ display:block; width:85%; color:#fff; padding-left:10%; margin:10px auto;}
+}
+@media screen and (min-width:1101px){
+#fnav{ padding:20px 0;}
+.fnav{ width:1100px; margin:0 auto;}
+.fnav span{ color:#fff; float:left; padding-right:80px;}
+.fnav span a{ color:#fff;}
+.banquan{ width:1100px; padding:15px 0;}
+#foot{padding:20px 0;}
+.foot{ width:1100px; margin:0 auto;}
+.foot span{ float:left; padding-left:30px; line-height:40px; padding-right:40px; color:#fff;}
+}
+.fbg1{ background:url(image/01.png) left no-repeat;}
+.fbg2{ background:url(image/02.png) left no-repeat;}
+.fbg3{ background:url(image/03.png) left no-repeat;}
+

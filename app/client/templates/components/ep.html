@@ -1,0 +1,77 @@
+<template name="ep">
+    <div class="ue-bar">
+    <div class="ue-bar-warp">
+        <div class="ue-bar-logo">
+            <a href="#">
+                <img src="image/logologo_new.png" style="width: 65px;height: 45px" alt="链动证书" title="链动证书">
+            </a>
+        </div>
+        <div class="ue-bar-nav">
+            <ul>
+                <!--</a>
+                    <div id="nav-second">
+                    <ul>
+                        <li>one</li>
+                        <li>two</li>
+                        <li>see</li>
+                    </ul>
+                    </div>
+                </li>-->
+                <li class="return"><a href="#">
+                    <img src="image/return.png" height="25" width="25"/></a>
+                </li>
+                <li class="search"><a href="#">
+                    <img src="image/Search.png" height="25" width="25"/></a>
+                </li>
+                <li class="user"><a href="#">
+                    <img src="image/user.png" height="25" width="25"/></a>
+                </li>
+                <li class="help"><a href="#">
+                    <img src="image/help.png" height="25" width="25"/></a>
+                </li>
+            </ul>
+            <div id="needHelp">需要帮助吗？</div>
+        </div>
+    </div>
+</div>
+<div class="sheet">
+    
+    <div id="validation">
+        <form method="post" action="#">
+            <div>
+            <div class="form-item" id="Nm">
+                <label for="name">姓名</label>
+                <input type="text" id="name">
+            </div>
+            <div class="form-item" id="Ag">
+                <label for="age">性别</label>
+                <input type="text" id="age">
+            </div>
+            <div class="form-item">
+                <label for="cerName">证书名称</label>
+                <input type="text" id="cerName">
+            </div>
+            <div class="form-item">
+                <label for="cerGrade">证书等级</label>
+                <input type="text" id="cerGrade">
+            </div>
+            <div class="form-item">
+                <label for="agency">签发单位</label>
+                <input type="text" id="agency">
+            </div>
+            <div class="form-item" id="TxValue">
+                <label for="tx">tx值</label>
+                <input type="text" id="tx">
+            </div>
+            </div>
+        </form>
+        <input class="submit" id="vali" type="submit" value="验证"/>
+         <input class="submit" id="vali" type="submit" value="验证"/>
+    </div>
+</div>
+<div>
+        <input type="file" class="query" id="fileId"  />
+        <button class="aaa">确认查询</button>
+        <span id="s1"></span>
+</div>
+</template>

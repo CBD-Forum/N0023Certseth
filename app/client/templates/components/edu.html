@@ -1,0 +1,88 @@
+<template name="edu"> 
+<script type="text/javascript"> 
+var system = { 
+            win: false, 
+            mac: false, 
+            xll: false, 
+            ipad:false 
+        }; 
+        //检测平台 
+        var p = navigator.platform; 
+        system.win = p.indexOf("Win") == 0; 
+        system.mac = p.indexOf("Mac") == 0; 
+        system.x11 = (p == "X11") || (p.indexOf("Linux") == 0); 
+        system.ipad = (navigator.userAgent.match(/iPad/i) != null)?true:false; 
+        if (system.win || system.mac || system.xll||system.ipad) { 
+        } else { 
+ alert("请在电脑打开体验完整功能");
+} 
+
+</script> 
+
+
+<body>
+<div class="index-top">
+ <div class="logo"><a href="/"> <img style="margin-left:40px" src="image/logo.png"></a></div>
+  <div id="menul">
+    
+  </div>
+  <div id="menur">
+    <ul>
+     
+      <li><a href="#">费用中心</a>
+      <div class="down_nav"><span><a href='/edubuy'>购买</a></span><span><a href='charge'>充值</a></span><span><a href='/edurest'>余额</a></span></div>
+      </li>
+      <li><a href="#">支持</a>
+       <div class="down_nav"><span><a href='/build1'>帮助文档</a></span><span><a href='/build1'>客户端下载</a></span><span><a href='/build1'>联系客服</a></span><span><a href='/build1'>帮助与意见</a></span></div>
+      </li>
+      <li><a href="#">欢迎您！{{user.username}}</a>
+        <div class="down_nav"><span><a href='/eduperson'>用户中心</a></span><span><a class = "logout" >退出</a></span></div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="lnav">
+<em>用户功能</em>
+<ul>
+<li><a href="ethreg" >签发密码</a></li>
+<li><a href="/build1">证书模板</a></li>
+<li><a href="/build1">签发记录</a></li>
+</ul>
+<div id="menum">
+    <ul>
+      <li><a href="certmany">证书签发</a>
+        
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="info">
+<div class="topPanels"><p>用户信息</p></div>
+<div class="xs_tit"><span>基本信息</span></div>
+<ul class="xs_com">
+<li><img src="image/ind7.jpg"><span>登录名：{{user.email}}<!--（<i>未进行身份认证，点击进行身份认证</i>）--></span></li>
+<li></li>
+<div class="clear"></div>
+</ul>
+<div class="height40"></div>
+<ul class="jy_con">
+<li><span><input type="submit" name="button" id="button" value="机构名称" class="quedgm"></span>
+  <span name="textfield" id="textfield" class="jy_txt">{{user.username}}</span>
+</li>
+<li><span><input type="submit" name="button" id="button" value="机构地址" class="quedgm"></span>
+  <span type="text" name="textfield" id="textfield" class="jy_txt">{{user.address}}</span>
+</li>
+<li><span><input type="submit" name="button" id="button" value="联系电话" class="quedgm"></span>
+<span type="text" name="textfield" id="textfield" class="jy_txt">{{user.call}}</span></li>
+<li><span><input type="submit" name="button" id="button" value="机构邮箱" class="quedgm"></span>
+  <span type="text" name="textfield" id="textfield" class="jy_txt">{{user.email}}</span>
+</li>
+<li><span><input type="submit" name="button" id="button" value="以太坊账号" class="quedgm"></span>
+  <span type="text" name="textfield" id="textfield" class="jy_txt">{{user.ethaddress}}</span>
+</li>
+
+<div class="clear"></div>
+</ul>
+</div>
+</body>
+</template>
